@@ -26,10 +26,26 @@ def convert_to_ist(time_str):
     time_str = time_str.split('+')[0]
     # time_obj = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
 
-    try:
-        time_obj = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%S.%fZ")
-    except ValueError:
-        time_obj = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%SZ")
+    gpx_time_str = time_elem.text
+
+    # Try parsing in multiple formats
+    parsed = False
+    for fmt in [
+        "%Y-%m-%dT%H:%M:%S.%fZ",
+        "%Y-%m-%dT%H:%M:%SZ",
+        "%Y-%m-%d %H:%M:%S",          
+        "%Y-%m-%dT%H:%M:%S",         
+    ]:
+        try:
+            time_obj = datetime.strptime(time_str, fmt)
+            parsed = True
+            break
+        except ValueError:
+            continue
+
+    if not parsed:
+        print(f"Skipping {file_id}: Unrecognized GPX time format '{gpx_time_str}'")
+        continue
 
     # set offset according to difference
     if var == 0: 
