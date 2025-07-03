@@ -28,7 +28,7 @@ if response.status_code == 200:
             if road_id and road_type in valid_types:
                 categorized_ids[road_type].append(road_id)
         else:
-            print(f"⚠️ Skipping road ID {road_id} — 'road' is missing or invalid.")
+            print(f"Skipping road ID {road_id} — 'road' is missing or invalid.")
 
 
     print("\nCategorized Road IDs:")

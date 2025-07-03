@@ -24,7 +24,12 @@ def convert_to_utc(time_str):
 
 def convert_to_ist(time_str):
     time_str = time_str.split('+')[0]
-    time_obj = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
+    # time_obj = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
+
+    try:
+        time_obj = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%S.%fZ")
+    except ValueError:
+        time_obj = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%SZ")
 
     # set offset according to difference
     if var == 0: 
