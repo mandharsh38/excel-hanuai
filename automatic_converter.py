@@ -23,10 +23,10 @@ def convert_to_utc(time_str):
             return time_utc
 
 def convert_to_ist(time_str):
-    time_str = time_str.split('+')[0]
+    # time_str = time_str.split('+')[0]
     # time_obj = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
 
-    gpx_time_str = time_elem.text
+    time_str = time_str.text
 
     # Try parsing in multiple formats
     parsed = False
@@ -44,7 +44,7 @@ def convert_to_ist(time_str):
             continue
 
     if not parsed:
-        print(f"Skipping {file_id}: Unrecognized GPX time format '{gpx_time_str}'")
+        print(f"Skipping {file_id}: Unrecognized GPX time format '{time_str}'")
         continue
 
     # set offset according to difference
@@ -137,12 +137,28 @@ for filename in os.listdir(gpx_folder):
 
             trkpts = root.findall(f".//{{{ns}}}trkpt")
             time_elem = trkpts[0].find(f"{{{ns}}}time")
+
             gpx_time_str = time_elem.text
 
-            try:
-                gpx_time = datetime.strptime(gpx_time_str, "%Y-%m-%dT%H:%M:%S.%fZ")
-            except ValueError:
-                gpx_time = datetime.strptime(gpx_time_str, "%Y-%m-%dT%H:%M:%SZ")
+            # Try parsing in multiple formats
+            parsed = False
+            for fmt in [
+                "%Y-%m-%dT%H:%M:%S.%fZ",
+                "%Y-%m-%dT%H:%M:%SZ",
+                "%Y-%m-%d %H:%M:%S",         
+                "%Y-%m-%dT%H:%M:%S",         
+            ]:
+                try:
+                    gpx_time = datetime.strptime(gpx_time_str, fmt)
+                    parsed = True
+                    break
+                except ValueError:
+                    continue
+
+            if not parsed:
+                print(f"Skipping {file_id}: Unrecognized GPX time format '{gpx_time_str}'")
+                continue
+
 
             with open(json_path, "r") as f:
                 data = json.load(f)
