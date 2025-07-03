@@ -1,0 +1,38 @@
+{
+    "0": {
+        "Left": {},
+        "Right": {
+            "CHEVRON": 1,
+            "HAZARD": 1
+        },
+        "lat": 20.05550833,
+        "lng": 75.137765,
+        "to_lat": 20.057005,
+        "to_lng": 75.13504667,
+        "Median": {
+            "DAMAGED_SIGN": 2
+        }
+    },
+    "336": {
+        "Left": {
+            "INFORMATORY_SIGNS": 3,
+            "DAMAGED_SIGN": 1
+        },
+        "Right": {},
+        "lat": 20.057005,
+        "lng": 75.13504667,
+        "to_lat": 20.05972333,
+        "to_lng": 75.131275,
+        "Avenue": {
+            "DAMAGED_SIGN": 1
+        }
+    },
+    "836": {
+        "Left": {},
+        "Right": {},
+        "lat": 20.05972333,
+        "lng": 75.131275,
+        "to_lat": 20.061405,
+        "to_lng": 75.13072667
+    }
+}

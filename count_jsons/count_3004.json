@@ -1,0 +1,95 @@
+{
+    "0": {
+        "Left": {},
+        "Right": {
+            "INFORMATORY_SIGNS": 2
+        },
+        "lat": 27.20454333,
+        "lng": 78.03730667,
+        "to_lat": 27.20314,
+        "to_lng": 78.04012333
+    },
+    "326": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 27.20314,
+        "lng": 78.04012333,
+        "to_lat": 27.20354667,
+        "to_lng": 78.044855
+    },
+    "826": {
+        "Left": {},
+        "Right": {},
+        "lat": 27.20354667,
+        "lng": 78.044855,
+        "to_lat": 27.205725,
+        "to_lng": 78.04926333
+    },
+    "1326": {
+        "Left": {
+            "INFORMATORY_SIGNS": 3
+        },
+        "Right": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "lat": 27.205725,
+        "lng": 78.04926333,
+        "to_lat": 27.20792167,
+        "to_lng": 78.05367333
+    },
+    "1826": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 27.20792167,
+        "lng": 78.05367333,
+        "to_lat": 27.21006667,
+        "to_lng": 78.05805833
+    },
+    "2326": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 27.21006667,
+        "lng": 78.05805833,
+        "to_lat": 27.21116833,
+        "to_lng": 78.06291833
+    },
+    "2826": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 27.21116833,
+        "lng": 78.06291833,
+        "to_lat": 27.21178333,
+        "to_lng": 78.06784667
+    },
+    "3326": {
+        "Left": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 27.21178333,
+        "lng": 78.06784667,
+        "to_lat": 27.21337833,
+        "to_lng": 78.07248333
+    },
+    "3826": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 27.21337833,
+        "lng": 78.07248333,
+        "to_lat": 27.21517167,
+        "to_lng": 78.07452667
+    }
+}

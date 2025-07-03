@@ -1,0 +1,116 @@
+{
+    "0": {
+        "Left": {
+            "HAZARD": 1
+        },
+        "Right": {},
+        "lat": 22.4759928,
+        "lng": 88.08936663,
+        "to_lat": 22.47511882,
+        "to_lng": 88.08545429
+    },
+    "440": {
+        "Left": {
+            "INFORMATORY_SIGNS": 2
+        },
+        "Right": {},
+        "lat": 22.47511882,
+        "lng": 88.08545429,
+        "to_lat": 22.47670476,
+        "to_lng": 88.08091457
+    },
+    "940": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 22.47670476,
+        "lng": 88.08091457,
+        "to_lat": 22.47749149,
+        "to_lng": 88.07613127
+    },
+    "1440": {
+        "Left": {},
+        "Right": {},
+        "lat": 22.47749149,
+        "lng": 88.07613127,
+        "to_lat": 22.47840813,
+        "to_lng": 88.07136951
+    },
+    "1940": {
+        "Left": {},
+        "Right": {},
+        "lat": 22.47840813,
+        "lng": 88.07136951,
+        "to_lat": 22.47842054,
+        "to_lng": 88.06651949
+    },
+    "2440": {
+        "Left": {},
+        "Right": {},
+        "lat": 22.47842054,
+        "lng": 88.06651949,
+        "to_lat": 22.47823568,
+        "to_lng": 88.06172278
+    },
+    "2940": {
+        "Left": {
+            "HAZARD": 1
+        },
+        "Right": {},
+        "lat": 22.47823568,
+        "lng": 88.06172278,
+        "to_lat": 22.47799281,
+        "to_lng": 88.05695373
+    },
+    "3440": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {
+            "INFORMATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "lat": 22.47799281,
+        "lng": 88.05695373,
+        "to_lat": 22.47772832,
+        "to_lng": 88.05201595
+    },
+    "3940": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "DAMAGED_SIGN": 1
+        },
+        "Right": {
+            "HAZARD": 1
+        },
+        "lat": 22.47772832,
+        "lng": 88.05201595,
+        "to_lat": 22.47777538,
+        "to_lng": 88.04721127
+    },
+    "4440": {
+        "Left": {
+            "HAZARD": 1
+        },
+        "Right": {
+            "HAZARD": 1,
+            "INFORMATORY_SIGNS": 1
+        },
+        "lat": 22.47777538,
+        "lng": 88.04721127,
+        "to_lat": 22.47762757,
+        "to_lng": 88.04238413
+    },
+    "4940": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 22.47762757,
+        "lng": 88.04238413,
+        "to_lat": 22.47774655,
+        "to_lng": 88.03842
+    }
+}

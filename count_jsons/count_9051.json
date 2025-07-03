@@ -1,0 +1,96 @@
+{
+    "0": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 2,
+            "INFORMATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 22.62290171,
+        "lng": 88.28958322,
+        "to_lat": 22.62451464,
+        "to_lng": 88.2921599
+    },
+    "328": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 22.62451464,
+        "lng": 88.2921599,
+        "to_lat": 22.62627354,
+        "to_lng": 88.29657951
+    },
+    "828": {
+        "Left": {
+            "HAZARD": 1,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 22.62627354,
+        "lng": 88.29657951,
+        "to_lat": 22.62893333,
+        "to_lng": 88.30032857
+    },
+    "1328": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 22.62893333,
+        "lng": 88.30032857,
+        "to_lat": 22.63324121,
+        "to_lng": 88.30193161
+    },
+    "1828": {
+        "Left": {
+            "HAZARD": 1
+        },
+        "Right": {},
+        "lat": 22.63324121,
+        "lng": 88.30193161,
+        "to_lat": 22.63751095,
+        "to_lng": 88.30331974
+    },
+    "2328": {
+        "Left": {},
+        "Right": {
+            "HAZARD": 1
+        },
+        "lat": 22.63751095,
+        "lng": 88.30331974,
+        "to_lat": 22.64179481,
+        "to_lng": 88.30472178
+    },
+    "2828": {
+        "Left": {
+            "HAZARD": 1
+        },
+        "Right": {
+            "HAZARD": 1
+        },
+        "lat": 22.64179481,
+        "lng": 88.30472178,
+        "to_lat": 22.64624053,
+        "to_lng": 88.30607948
+    },
+    "3328": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Right": {},
+        "lat": 22.64624053,
+        "lng": 88.30607948,
+        "to_lat": 22.65043186,
+        "to_lng": 88.30760146
+    },
+    "3828": {
+        "Left": {},
+        "Right": {},
+        "lat": 22.65043186,
+        "lng": 88.30760146,
+        "to_lat": 22.65144569,
+        "to_lng": 88.3079359
+    }
+}

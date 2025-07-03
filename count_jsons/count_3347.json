@@ -1,0 +1,28 @@
+{
+    "0": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {},
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "lat": 18.814305,
+        "lng": 75.71949,
+        "to_lat": 18.81270833,
+        "to_lng": 75.71991
+    },
+    "336": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {},
+        "lat": 18.81270833,
+        "lng": 75.71991,
+        "to_lat": 18.81249333,
+        "to_lng": 75.71900833,
+        "Left": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        }
+    }
+}

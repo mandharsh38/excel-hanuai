@@ -1,0 +1,95 @@
+{
+    "0": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 2,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "lat": 27.564035,
+        "lng": 78.70177333,
+        "to_lat": 27.55999667,
+        "to_lng": 78.70314167
+    },
+    "479": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 3,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "lat": 27.55999667,
+        "lng": 78.70314167,
+        "to_lat": 27.55553167,
+        "to_lng": 78.70406
+    },
+    "979": {
+        "Left": {
+            "HAZARD": 1,
+            "INFORMATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 2,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "lat": 27.55553167,
+        "lng": 78.70406,
+        "to_lat": 27.551055,
+        "to_lng": 78.70444167
+    },
+    "1479": {
+        "Left": {
+            "HAZARD": 2
+        },
+        "Right": {},
+        "lat": 27.551055,
+        "lng": 78.70444167,
+        "to_lat": 27.54658833,
+        "to_lng": 78.7048,
+        "Avenue": {
+            "DAMAGED_SIGN": 1
+        }
+    },
+    "1979": {
+        "Left": {
+            "CAUTIONARY_WARNING_SIGNS": 2,
+            "INFORMATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "lat": 27.54658833,
+        "lng": 78.7048,
+        "to_lat": 27.54208667,
+        "to_lng": 78.705485,
+        "Avenue": {
+            "DAMAGED_SIGN": 1
+        }
+    },
+    "2479": {
+        "Left": {
+            "INFORMATORY_SIGNS": 3,
+            "HAZARD": 1
+        },
+        "Right": {},
+        "lat": 27.54208667,
+        "lng": 78.705485,
+        "to_lat": 27.53914167,
+        "to_lng": 78.70918667,
+        "Avenue": {
+            "DAMAGED_SIGN": 1
+        }
+    },
+    "2979": {
+        "Left": {},
+        "Right": {},
+        "lat": 27.53914167,
+        "lng": 78.70918667,
+        "to_lat": 27.53866,
+        "to_lng": 78.70996667
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "0": {
+        "Left": {},
+        "Right": {},
+        "lat": 26.80319167,
+        "lng": 79.00669,
+        "to_lat": 26.80308667,
+        "to_lng": 79.00682167
+    },
+    "20": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 26.80308667,
+        "lng": 79.00682167,
+        "to_lat": 26.80047,
+        "to_lng": 79.01083833
+    },
+    "520": {
+        "Left": {},
+        "Right": {},
+        "lat": 26.80047,
+        "lng": 79.01083833,
+        "to_lat": 26.79811333,
+        "to_lng": 79.01511
+    },
+    "1020": {
+        "Left": {
+            "HAZARD": 1
+        },
+        "Right": {},
+        "lat": 26.79811333,
+        "lng": 79.01511,
+        "to_lat": 26.79648667,
+        "to_lng": 79.019835
+    },
+    "1520": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {
+            "INFORMATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "lat": 26.79648667,
+        "lng": 79.019835,
+        "to_lat": 26.79498167,
+        "to_lng": 79.024495
+    },
+    "2020": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 26.79498167,
+        "lng": 79.024495,
+        "to_lat": 26.79337667,
+        "to_lng": 79.02913833
+    },
+    "2520": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 26.79337667,
+        "lng": 79.02913833,
+        "to_lat": 26.79165167,
+        "to_lng": 79.03370833
+    },
+    "3020": {
+        "Left": {
+            "INFORMATORY_SIGNS": 2
+        },
+        "Right": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "lat": 26.79165167,
+        "lng": 79.03370833,
+        "to_lat": 26.78858167,
+        "to_lng": 79.03723167
+    },
+    "3520": {
+        "Left": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 26.78858167,
+        "lng": 79.03723167,
+        "to_lat": 26.78509333,
+        "to_lng": 79.03887
+    }
+}

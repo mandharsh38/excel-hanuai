@@ -1,0 +1,88 @@
+{
+    "0": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "lat": 27.61395833,
+        "lng": 78.56351,
+        "to_lat": 27.61312667,
+        "to_lng": 78.56668667
+    },
+    "340": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "lat": 27.61312667,
+        "lng": 78.56668667,
+        "to_lat": 27.60993333,
+        "to_lng": 78.57032167
+    },
+    "840": {
+        "Left": {
+            "HAZARD": 2
+        },
+        "Right": {},
+        "lat": 27.60993333,
+        "lng": 78.57032167,
+        "to_lat": 27.60696833,
+        "to_lng": 78.57394333,
+        "Avenue": {
+            "DAMAGED_SIGN": 2
+        }
+    },
+    "1340": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "lat": 27.60696833,
+        "lng": 78.57394333,
+        "to_lat": 27.60591167,
+        "to_lng": 78.578805
+    },
+    "1840": {
+        "Left": {
+            "HAZARD": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 2
+        },
+        "lat": 27.60591167,
+        "lng": 78.578805,
+        "to_lat": 27.60594333,
+        "to_lng": 78.58392833
+    },
+    "2340": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 27.60594333,
+        "lng": 78.58392833,
+        "to_lat": 27.60439833,
+        "to_lng": 78.588585,
+        "Avenue": {
+            "DAMAGED_SIGN": 2
+        }
+    },
+    "2840": {
+        "Left": {},
+        "Right": {},
+        "lat": 27.60439833,
+        "lng": 78.588585,
+        "to_lat": 27.60394667,
+        "to_lng": 78.58935333
+    }
+}

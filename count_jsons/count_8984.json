@@ -1,0 +1,27 @@
+{
+    "0": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Right": {
+            "HAZARD": 1
+        },
+        "lat": 25.05478699,
+        "lng": 88.1524148,
+        "to_lat": 25.05762145,
+        "to_lng": 88.15124243
+    },
+    "344": {
+        "Left": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "HAZARD": 2,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 25.05762145,
+        "lng": 88.15124243,
+        "to_lat": 25.0603861,
+        "to_lng": 88.15018488
+    }
+}

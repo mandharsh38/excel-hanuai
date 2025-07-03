@@ -1,0 +1,31 @@
+{
+    "0": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {},
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 2,
+            "INFORMATORY_SIGNS": 2
+        },
+        "lat": 26.723085,
+        "lng": 75.87540667,
+        "to_lat": 26.72632667,
+        "to_lng": 75.8732,
+        "Right": {
+            "HAZARD": 1,
+            "CHEVRON": 5
+        }
+    },
+    "462": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {},
+        "lat": 26.72632667,
+        "lng": 75.8732,
+        "to_lat": 26.72694167,
+        "to_lng": 75.87134167,
+        "Right": {
+            "CHEVRON": 6
+        }
+    }
+}

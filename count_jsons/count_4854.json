@@ -1,0 +1,32 @@
+{
+    "0": {
+        "Left": {},
+        "Right": {},
+        "lat": 14.92011361,
+        "lng": 80.01912738,
+        "to_lat": 14.91943207,
+        "to_lng": 80.01921349
+    },
+    "90": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "HAZARD": 3,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 14.91943207,
+        "lng": 80.01921349,
+        "to_lat": 14.91495701,
+        "to_lng": 80.0189806
+    },
+    "590": {
+        "Left": {},
+        "Right": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "lat": 14.91495701,
+        "lng": 80.0189806,
+        "to_lat": 14.91358427,
+        "to_lng": 80.01858545
+    }
+}

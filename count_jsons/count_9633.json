@@ -1,0 +1,644 @@
+{
+    "0": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 2,
+            "CAUTIONARY_WARNING_SIGNS": 3,
+            "CHEVRON": 3
+        },
+        "Median": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1,
+            "CHEVRON": 1
+        },
+        "Center": {},
+        "lat": 23.31743325,
+        "lng": 85.09445546,
+        "to_lat": 23.31707991,
+        "to_lng": 85.09923734
+    },
+    "500": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.31707991,
+        "lng": 85.09923734,
+        "to_lat": 23.31693071,
+        "to_lng": 85.10404411
+    },
+    "1000": {
+        "Avenue": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.31693071,
+        "lng": 85.10404411,
+        "to_lat": 23.3165956,
+        "to_lng": 85.10898323
+    },
+    "1500": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {},
+        "lat": 23.3165956,
+        "lng": 85.10898323,
+        "to_lat": 23.31642834,
+        "to_lng": 85.11382202
+    },
+    "2000": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 2,
+            "CHEVRON": 2,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {
+            "INFORMATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.31642834,
+        "lng": 85.11382202,
+        "to_lat": 23.31659258,
+        "to_lng": 85.11873272
+    },
+    "2500": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.31659258,
+        "lng": 85.11873272,
+        "to_lat": 23.31659656,
+        "to_lng": 85.12359641
+    },
+    "3000": {
+        "Avenue": {},
+        "Median": {
+            "CHEVRON": 2
+        },
+        "Center": {},
+        "lat": 23.31659656,
+        "lng": 85.12359641,
+        "to_lat": 23.31695045,
+        "to_lng": 85.12847886
+    },
+    "3500": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 5,
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {
+            "CHEVRON": 1
+        },
+        "Center": {},
+        "lat": 23.31695045,
+        "lng": 85.12847886,
+        "to_lat": 23.31772188,
+        "to_lng": 85.13328505
+    },
+    "4000": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 2,
+            "CHEVRON": 1
+        },
+        "Center": {},
+        "lat": 23.31772188,
+        "lng": 85.13328505,
+        "to_lat": 23.31824973,
+        "to_lng": 85.13819642
+    },
+    "4500": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Median": {
+            "CHEVRON": 4
+        },
+        "Center": {},
+        "lat": 23.31824973,
+        "lng": 85.13819642,
+        "to_lat": 23.3192895,
+        "to_lng": 85.14293765
+    },
+    "5000": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 2,
+            "HAZARD": 1
+        },
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.3192895,
+        "lng": 85.14293765,
+        "to_lat": 23.32061405,
+        "to_lng": 85.14760628
+    },
+    "5500": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 5,
+            "HAZARD": 2
+        },
+        "Median": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.32061405,
+        "lng": 85.14760628,
+        "to_lat": 23.32192176,
+        "to_lng": 85.15226285
+    },
+    "6000": {
+        "Avenue": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 2,
+            "INFORMATORY_SIGNS": 1,
+            "CHEVRON": 1
+        },
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.32192176,
+        "lng": 85.15226285,
+        "to_lat": 23.32318809,
+        "to_lng": 85.15691464
+    },
+    "6500": {
+        "Avenue": {
+            "CHEVRON": 1,
+            "INFORMATORY_SIGNS": 2
+        },
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.32318809,
+        "lng": 85.15691464,
+        "to_lat": 23.3242026,
+        "to_lng": 85.16170431
+    },
+    "7000": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 2,
+            "INFORMATORY_SIGNS": 1,
+            "CHEVRON": 2
+        },
+        "Median": {
+            "INFORMATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.3242026,
+        "lng": 85.16170431,
+        "to_lat": 23.32523101,
+        "to_lng": 85.16640748
+    },
+    "7500": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 3,
+            "CHEVRON": 2,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.32523101,
+        "lng": 85.16640748,
+        "to_lat": 23.32578447,
+        "to_lng": 85.1713145
+    },
+    "8000": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 2,
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "CHEVRON": 3
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.32578447,
+        "lng": 85.1713145,
+        "to_lat": 23.32544287,
+        "to_lng": 85.17613065
+    },
+    "8500": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.32544287,
+        "lng": 85.17613065,
+        "to_lat": 23.324711,
+        "to_lng": 85.18091203
+    },
+    "9000": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {},
+        "lat": 23.324711,
+        "lng": 85.18091203,
+        "to_lat": 23.32437074,
+        "to_lng": 85.1857219
+    },
+    "9500": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 2,
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Median": {
+            "CHEVRON": 1
+        },
+        "Center": {},
+        "lat": 23.32437074,
+        "lng": 85.1857219,
+        "to_lat": 23.32416811,
+        "to_lng": 85.19065264
+    },
+    "10000": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 2
+        },
+        "Median": {
+            "CHEVRON": 1
+        },
+        "Center": {},
+        "lat": 23.32416811,
+        "lng": 85.19065264,
+        "to_lat": 23.32676184,
+        "to_lng": 85.19462407
+    },
+    "10500": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 4,
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Median": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Center": {},
+        "lat": 23.32676184,
+        "lng": 85.19462407,
+        "to_lat": 23.32970092,
+        "to_lng": 85.19828654
+    },
+    "11000": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Median": {
+            "INFORMATORY_SIGNS": 3
+        },
+        "Center": {},
+        "lat": 23.32970092,
+        "lng": 85.19828654,
+        "to_lat": 23.33231779,
+        "to_lng": 85.20172857
+    },
+    "11500": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 1,
+            "CHEVRON": 1
+        },
+        "Center": {},
+        "lat": 23.33231779,
+        "lng": 85.20172857,
+        "to_lat": 23.33485055,
+        "to_lng": 85.20569815
+    },
+    "12000": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {},
+        "lat": 23.33485055,
+        "lng": 85.20569815,
+        "to_lat": 23.33744663,
+        "to_lng": 85.2097125
+    },
+    "12500": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 2
+        },
+        "Center": {},
+        "lat": 23.33744663,
+        "lng": 85.2097125,
+        "to_lat": 23.34009272,
+        "to_lng": 85.21357027
+    },
+    "13000": {
+        "Avenue": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.34009272,
+        "lng": 85.21357027,
+        "to_lat": 23.34251261,
+        "to_lng": 85.21779911
+    },
+    "13500": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.34251261,
+        "lng": 85.21779911,
+        "to_lat": 23.34509613,
+        "to_lng": 85.22178009
+    },
+    "14000": {
+        "Avenue": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.34509613,
+        "lng": 85.22178009,
+        "to_lat": 23.34769514,
+        "to_lng": 85.22576669
+    },
+    "14500": {
+        "Avenue": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.34769514,
+        "lng": 85.22576669,
+        "to_lat": 23.35027878,
+        "to_lng": 85.22975036
+    },
+    "15000": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 4,
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 2
+        },
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.35027878,
+        "lng": 85.22975036,
+        "to_lat": 23.35285898,
+        "to_lng": 85.2337725
+    },
+    "15500": {
+        "Avenue": {},
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.35285898,
+        "lng": 85.2337725,
+        "to_lat": 23.35545012,
+        "to_lng": 85.23778114
+    },
+    "16000": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 2,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Median": {
+            "INFORMATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 23.35545012,
+        "lng": 85.23778114,
+        "to_lat": 23.35795455,
+        "to_lng": 85.24178862
+    },
+    "16500": {
+        "Avenue": {},
+        "Median": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Center": {},
+        "lat": 23.35795455,
+        "lng": 85.24178862,
+        "to_lat": 23.36040731,
+        "to_lng": 85.24592249
+    },
+    "17000": {
+        "Avenue": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "INFORMATORY_SIGNS": 2
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.36040731,
+        "lng": 85.24592249,
+        "to_lat": 23.36280269,
+        "to_lng": 85.25010489
+    },
+    "17500": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 2,
+            "INFORMATORY_SIGNS": 2
+        },
+        "Median": {
+            "INFORMATORY_SIGNS": 3,
+            "HAZARD": 2,
+            "CHEVRON": 1
+        },
+        "Center": {},
+        "lat": 23.36280269,
+        "lng": 85.25010489,
+        "to_lat": 23.36564683,
+        "to_lng": 85.25379351
+    },
+    "18000": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {
+            "INFORMATORY_SIGNS": 3,
+            "HAZARD": 2,
+            "DAMAGED_SIGN": 1
+        },
+        "Center": {},
+        "lat": 23.36564683,
+        "lng": 85.25379351,
+        "to_lat": 23.36884348,
+        "to_lng": 85.25734224
+    },
+    "18500": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "CHEVRON": 3,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.36884348,
+        "lng": 85.25734224,
+        "to_lat": 23.37188393,
+        "to_lng": 85.26090908
+    },
+    "19000": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 5,
+            "CHEVRON": 3,
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 3,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Center": {},
+        "lat": 23.37188393,
+        "lng": 85.26090908,
+        "to_lat": 23.37428317,
+        "to_lng": 85.26480415
+    },
+    "19500": {
+        "Avenue": {
+            "CHEVRON": 2,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.37428317,
+        "lng": 85.26480415,
+        "to_lat": 23.37375825,
+        "to_lng": 85.26963615
+    },
+    "20000": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.37375825,
+        "lng": 85.26963615,
+        "to_lat": 23.37358349,
+        "to_lng": 85.27448701
+    },
+    "20500": {
+        "Avenue": {
+            "PROHIBITORY_MANDATORY_SIGNS": 2,
+            "INFORMATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 3
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.37358349,
+        "lng": 85.27448701,
+        "to_lat": 23.37298058,
+        "to_lng": 85.27933845
+    },
+    "21000": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "CHEVRON": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "INFORMATORY_SIGNS": 2
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.37298058,
+        "lng": 85.27933845,
+        "to_lat": 23.37562478,
+        "to_lng": 85.28320536
+    },
+    "21500": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 2,
+            "CHEVRON": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.37562478,
+        "lng": 85.28320536,
+        "to_lat": 23.37883442,
+        "to_lng": 85.28660347
+    },
+    "22000": {
+        "Avenue": {
+            "PROHIBITORY_MANDATORY_SIGNS": 2,
+            "CHEVRON": 1,
+            "CAUTIONARY_WARNING_SIGNS": 2
+        },
+        "Median": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Center": {},
+        "lat": 23.37883442,
+        "lng": 85.28660347,
+        "to_lat": 23.38037547,
+        "to_lng": 85.29108904
+    },
+    "22500": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 2
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 23.38037547,
+        "lng": 85.29108904,
+        "to_lat": 23.38049814,
+        "to_lng": 85.29189572
+    },
+    "23000": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {},
+        "lat": 23.38049814,
+        "lng": 85.29189572
+    },
+    "23500": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {}
+    },
+    "24000": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {}
+    },
+    "24500": {
+        "Avenue": {},
+        "Median": {},
+        "Center": {}
+    }
+}

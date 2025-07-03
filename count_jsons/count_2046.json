@@ -1,0 +1,35 @@
+{
+    "0": {
+        "Left": {
+            "CHEVRON": 2
+        },
+        "Right": {},
+        "lat": 29.406348402337613,
+        "lng": 77.21831488599493,
+        "to_lat": 29.40481333,
+        "to_lng": 77.22118
+    },
+    "342": {
+        "Left": {
+            "HAZARD": 2,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "lat": 29.40481333,
+        "lng": 77.22118,
+        "to_lat": 29.40510167,
+        "to_lng": 77.22591
+    },
+    "842": {
+        "Left": {
+            "HAZARD": 3
+        },
+        "Right": {},
+        "lat": 29.40510167,
+        "lng": 77.22591,
+        "to_lat": 29.40604,
+        "to_lng": 77.22777
+    }
+}
