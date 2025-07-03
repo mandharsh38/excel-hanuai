@@ -23,10 +23,10 @@ def convert_to_utc(time_str):
             return time_utc
 
 def convert_to_ist(time_str):
-    # time_str = time_str.split('+')[0]
+    time_str = time_str.split('+')[0]
     # time_obj = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
 
-    time_str = time_str.text
+    # time_str = time_str.text
 
     # Try parsing in multiple formats
     parsed = False
@@ -45,7 +45,7 @@ def convert_to_ist(time_str):
 
     if not parsed:
         print(f"Skipping {file_id}: Unrecognized GPX time format '{time_str}'")
-        continue
+        # continue
 
     # set offset according to difference
     if var == 0: 
