@@ -4,5 +4,5 @@ ids = [5463, 5467, 5468, 5469, 5470, 5471, 5472, 5473, 5474, 5475, 5476, 5477, 5
 # mcw_id=True
 mcw_id=False
 
-# clear_folders=True
-clear_folders=False
+clear_folders=True
+# clear_folders=False
