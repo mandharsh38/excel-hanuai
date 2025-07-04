@@ -15,8 +15,8 @@ clear_null_distance.clean_json_files("jsons")
 # gpx converter
 import automatic_converter
 
-import gpx_converter
-gpx_converter.convert()
+# import gpx_converter
+# gpx_converter.convert()
 
 # json patch
 try: 
