@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with BasicAirData GPS Logger for Android - ver. 3.2.3 -->
+<!-- Track 2170 = 22 TrackPoints + 0 Placemarks -->
+
+<!-- Track Statistics (based on Total Time | Time in Movement): -->
+<!--  Distance = 90 m -->
+<!--  Duration = 00:21 | 00:20 -->
+<!--  Altitude Gap = -1 m -->
+<!--  Max Speed = 24 km/h -->
+<!--  Avg Speed = 15.5 | 16.2 km/h -->
+<!--  Direction = N -->
+<!--  Activity = car -->
+<!--  Altitudes = Raw -->
+
+<gpx version="1.0"
+     creator="BasicAirData GPS Logger 3.2.3"
+     xmlns="http://www.topografix.com/GPX/1/0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<name>GPS Logger 20250406-104528</name>
+<desc>SRR 3.3</desc>
+<time>2025-04-06T05:24:45Z</time>
+<keywords>car</keywords>
+<bounds minlat="27.06834167" minlon="75.83211000" maxlat="27.06915000" maxlon="75.83216833" />
+
+<trk>
+ <name>Track 20250406-104528</name>
+ <trkseg>
+  <trkpt lat="27.06834167" lon="75.83211000"><ele>444.300</ele><time>2025-04-06T05:15:28Z</time><speed>1.366</speed><sat>33</sat></trkpt>
+  <trkpt lat="27.06834833" lon="75.83211167"><ele>444.100</ele><time>2025-04-06T05:15:29Z</time><speed>1.147</speed><sat>34</sat></trkpt>
+  <trkpt lat="27.06836000" lon="75.83211500"><ele>444.100</ele><time>2025-04-06T05:15:30Z</time><speed>1.540</speed><sat>34</sat></trkpt>
+  <trkpt lat="27.06838000" lon="75.83211833"><ele>443.700</ele><time>2025-04-06T05:15:31Z</time><speed>2.555</speed><sat>34</sat></trkpt>
+  <trkpt lat="27.06841167" lon="75.83212667"><ele>442.400</ele><time>2025-04-06T05:15:32Z</time><speed>3.120</speed><sat>35</sat></trkpt>
+  <trkpt lat="27.06844333" lon="75.83213333"><ele>441.700</ele><time>2025-04-06T05:15:33Z</time><speed>3.421</speed><sat>35</sat></trkpt>
+  <trkpt lat="27.06848000" lon="75.83214000"><ele>440.400</ele><time>2025-04-06T05:15:34Z</time><speed>4.400</speed><sat>34</sat></trkpt>
+  <trkpt lat="27.06853167" lon="75.83214833"><ele>440.100</ele><time>2025-04-06T05:15:35Z</time><speed>6.018</speed><sat>34</sat></trkpt>
+  <trkpt lat="27.06858333" lon="75.83215667"><ele>439.600</ele><time>2025-04-06T05:15:36Z</time><speed>6.365</speed><sat>33</sat></trkpt>
+  <trkpt lat="27.06864167" lon="75.83216167"><ele>439.800</ele><time>2025-04-06T05:15:37Z</time><speed>6.539</speed><sat>32</sat></trkpt>
+  <trkpt lat="27.06869667" lon="75.83216500"><ele>439.900</ele><time>2025-04-06T05:15:38Z</time><speed>6.266</speed><sat>32</sat></trkpt>
+  <trkpt lat="27.06875333" lon="75.83216833"><ele>439.600</ele><time>2025-04-06T05:15:39Z</time><speed>6.440</speed><sat>32</sat></trkpt>
+  <trkpt lat="27.06881333" lon="75.83216833"><ele>439.500</ele><time>2025-04-06T05:15:40Z</time><speed>6.627</speed><sat>32</sat></trkpt>
+  <trkpt lat="27.06887667" lon="75.83216833"><ele>439.800</ele><time>2025-04-06T05:15:41Z</time><speed>6.786</speed><sat>32</sat></trkpt>
+  <trkpt lat="27.06893833" lon="75.83216833"><ele>439.600</ele><time>2025-04-06T05:15:42Z</time><speed>6.777</speed><sat>32</sat></trkpt>
+  <trkpt lat="27.06899667" lon="75.83216500"><ele>440.900</ele><time>2025-04-06T05:15:43Z</time><speed>6.213</speed><sat>32</sat></trkpt>
+  <trkpt lat="27.06904333" lon="75.83216833"><ele>441.800</ele><time>2025-04-06T05:15:44Z</time><speed>5.251</speed><sat>33</sat></trkpt>
+  <trkpt lat="27.06908667" lon="75.83216667"><ele>442.400</ele><time>2025-04-06T05:15:45Z</time><speed>3.896</speed><sat>33</sat></trkpt>
+  <trkpt lat="27.06911333" lon="75.83216333"><ele>442.400</ele><time>2025-04-06T05:15:46Z</time><speed>2.651</speed><sat>33</sat></trkpt>
+  <trkpt lat="27.06912833" lon="75.83215500"><ele>443.100</ele><time>2025-04-06T05:15:47Z</time><speed>1.665</speed><sat>33</sat></trkpt>
+  <trkpt lat="27.06914167" lon="75.83215000"><ele>443.500</ele><time>2025-04-06T05:15:48Z</time><speed>1.339</speed><sat>32</sat></trkpt>
+  <trkpt lat="27.06915000" lon="75.83215000"><ele>443.300</ele><time>2025-04-06T05:15:49Z</time><speed>0.000</speed><sat>32</sat></trkpt>
+ </trkseg>
+</trk>
+
+</gpx>
+ 

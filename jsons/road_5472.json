@@ -1,0 +1,33 @@
+{
+    "anomalies": [],
+    "assets": [
+        {
+            "Assets number": 1,
+            "Timestamp on processed video": "2025-04-05 10:47:39",
+            "Asset type": "PROHIBITORY_MANDATORY_SIGNS",
+            "Side": "Median",
+            "Latitude": 28.00207833,
+            "Longitude": 76.45108,
+            "Distance": 90.59152734633679,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5472/20250405_104708_943.jpg",
+            "category": "Mandatory Signs"
+        },
+        {
+            "Assets number": 2,
+            "Timestamp on processed video": "2025-04-05 10:47:48",
+            "Asset type": "CAUTIONARY_WARNING_SIGNS",
+            "Side": "Avenue",
+            "Latitude": 28.00233333,
+            "Longitude": 76.451235,
+            "Distance": 127.34599020660491,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5472/20250405_104708_1212.jpg",
+            "category": "Cautionary Signs"
+        }
+    ]
+}

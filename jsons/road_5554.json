@@ -1,0 +1,47 @@
+{
+    "anomalies": [],
+    "assets": [
+        {
+            "Assets number": 3,
+            "Timestamp on processed video": "2025-04-05 14:56:09",
+            "Asset type": "CAUTIONARY_WARNING_SIGNS",
+            "Side": "Median",
+            "Latitude": 27.55984167,
+            "Longitude": 76.07624833,
+            "Distance": 114.96123220832891,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5554/20250405_145544_725.jpg",
+            "category": "Cautionary Signs"
+        },
+        {
+            "Assets number": 6,
+            "Timestamp on processed video": "2025-04-05 14:56:18",
+            "Asset type": "INFORMATORY_SIGNS",
+            "Side": "Avenue",
+            "Latitude": 27.55988,
+            "Longitude": 76.07594167,
+            "Distance": 150.07540048615516,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5554/20250405_145544_992.jpg",
+            "category": "Informatory Signs"
+        },
+        {
+            "Assets number": 7,
+            "Timestamp on processed video": "2025-04-05 14:56:22",
+            "Asset type": "CHEVRON",
+            "Side": "Avenue",
+            "Latitude": 27.55988833,
+            "Longitude": 76.07574167,
+            "Distance": 169.66087239609226,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5554/20250405_145544_1123.jpg",
+            "category": "Cautionary Signs"
+        }
+    ]
+}

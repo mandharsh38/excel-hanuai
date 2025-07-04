@@ -1,0 +1,118 @@
+{
+    "anomalies": [
+        {
+            "Anomaly number": "1",
+            "Timestamp on processed video": "2025-04-05 15:02:22",
+            "Anomaly type": "DAMAGED_SIGN",
+            "Side": "Left",
+            "Latitude": 27.54167167,
+            "Longitude": 76.07158667,
+            "Distance": 346.1950170702223,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5557/frame_1.png",
+            "category": "Mandatory Signs"
+        }
+    ],
+    "assets": [
+        {
+            "Assets number": "2",
+            "Timestamp on processed video": "2025-04-05 15:01:08",
+            "Asset type": "FADED_INFORMATORY_SIGNS",
+            "Side": "Left",
+            "Latitude": 27.54168667,
+            "Longitude": 76.07169,
+            "Distance": 65.9549325054128,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5557/frame_2.png",
+            "category": "Informatory Signs"
+        },
+        {
+            "Assets number": 2,
+            "Timestamp on processed video": "2025-04-05 15:00:59",
+            "Asset type": "INFORMATORY_SIGNS",
+            "Side": "Avenue",
+            "Latitude": 27.54174667,
+            "Longitude": 76.07134333,
+            "Distance": 38.38605370962056,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5557/20250405_150048_299.jpg",
+            "category": "Informatory Signs"
+        },
+        {
+            "Assets number": 4,
+            "Timestamp on processed video": "2025-04-05 15:01:58",
+            "Asset type": "PROHIBITORY_MANDATORY_SIGNS",
+            "Side": "Avenue",
+            "Latitude": 27.54123333,
+            "Longitude": 76.07255,
+            "Distance": 244.29502960500926,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5557/20250405_150048_2041.jpg",
+            "category": "Mandatory Signs"
+        },
+        {
+            "Assets number": 5,
+            "Timestamp on processed video": "2025-04-05 15:02:05",
+            "Asset type": "PROHIBITORY_MANDATORY_SIGNS",
+            "Side": "Avenue",
+            "Latitude": 27.54146833,
+            "Longitude": 76.07229,
+            "Distance": 281.96891404445944,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5557/20250405_150048_2261.jpg",
+            "category": "Mandatory Signs"
+        },
+        {
+            "Assets number": 6,
+            "Timestamp on processed video": "2025-04-05 15:02:16",
+            "Asset type": "CAUTIONARY_WARNING_SIGNS",
+            "Side": "Center",
+            "Latitude": 27.541645,
+            "Longitude": 76.07187833,
+            "Distance": 341.22266985501886,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5557/20250405_150048_2589.jpg",
+            "category": "Cautionary Signs"
+        },
+        {
+            "Assets number": 7,
+            "Timestamp on processed video": "2025-04-05 15:02:25",
+            "Asset type": "CAUTIONARY_WARNING_SIGNS",
+            "Side": "Avenue",
+            "Latitude": 27.541685,
+            "Longitude": 76.07145167,
+            "Distance": 368.11923448733876,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5557/20250405_150048_2871.jpg",
+            "category": "Cautionary Signs"
+        },
+        {
+            "Assets number": 8,
+            "Timestamp on processed video": "2025-04-05 15:02:27",
+            "Asset type": "INFORMATORY_SIGNS",
+            "Side": "Avenue",
+            "Latitude": 27.54169333,
+            "Longitude": 76.071385,
+            "Distance": 374.63458741111566,
+            "Length": null,
+            "Average width": null,
+            "Remarks": null,
+            "image": "https://raiotransection.s3.ap-south-1.amazonaws.com/furniture/output/frames/survey_200/road_5557/20250405_150048_2920.jpg",
+            "category": "Informatory Signs"
+        }
+    ]
+}

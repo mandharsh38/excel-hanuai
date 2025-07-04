@@ -1,9 +1,16 @@
-# clear folders json gpx gpx_jsons op
-import clear_folders
+import id
 
-# get jsons and gpx
-import get_fur_jsons
-import get_gpx
+# clear folders json gpx gpx_jsons op
+if id.clear_folders:
+
+    import clear_folders
+    # get jsons and gpx
+    import get_fur_jsons
+    import get_gpx
+
+# clear null distances
+import clear_null_distance
+clear_null_distance.clean_json_files("jsons")
 
 # gpx converter
 import automatic_converter
