@@ -188,4 +188,7 @@ for filename in os.listdir(gpx_folder):
         
         except Exception as e:
             print(f"Error processing {file_id}: {e}")
-            sys.exit(1)
+            var = 0 
+            convert()
+            # sys.exit(1)
+        

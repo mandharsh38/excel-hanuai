@@ -42,6 +42,8 @@ def update_side_in_json(input_folder, output_folder):
                        asset["Side"] = "Right"
                     if asset.get("Side") == "Center":
                        asset["Side"] = "Right"
+                    if asset.get("Side") == "Overhead":
+                       asset["Side"] = "Left"
 
                     
             for anomaly in data.get("anomalies", []):
@@ -61,6 +63,8 @@ def update_side_in_json(input_folder, output_folder):
                        anomaly["Side"] = "Right"
                     if anomaly.get("Side") == "Center":
                        anomaly["Side"] = "Right"
+                    if anomaly.get("Side") == "Overhead":
+                       anomaly["Side"] = "Left"
 
             # Write the modified JSON to the output folder
             with open(output_path, "w") as file:

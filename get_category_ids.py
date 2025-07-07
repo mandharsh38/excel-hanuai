@@ -2,12 +2,12 @@ import requests
 from collections import defaultdict
 
 # survey id
-survey_id = 242
+survey_id = 43
 
 api_url = f"https://ndd.roadathena.com/api/surveys/{survey_id}"
 headers = {"Security-Password": "admin@123"}
 
-valid_types = {"mcw rhs", "mcw lhs", "irl", "irr", "srl", "srr", "lrr", "lrl"}
+valid_types = {"mcw rhs", "mcw lhs", "irl", "irr", "srl", "srr", "lrr", "lrl", "sll", "tl", "tr", "cr", "cl"}
 categorized_ids = defaultdict(list)
 
 response = requests.get(api_url, headers=headers)
