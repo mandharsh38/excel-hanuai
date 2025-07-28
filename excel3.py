@@ -8,13 +8,14 @@ import id
 from openpyxl import Workbook, load_workbook
 from collections import defaultdict
 import math 
+
+#multithread support
+from concurrent.futures import ProcessPoolExecutor
+
 def get_max_distance(gpx_data):
     max_value = max((x['distanceInMeters'] for x in gpx_data.values()), default=0) 
     # max_value = ((max_value + 499) // 500) * 500
     return math.ceil(max_value)
-
-
-
 
     
 ## get closest timestamp 
@@ -77,62 +78,108 @@ def add_gps_data(result, key, gpx_data, distance_start, distance_end):
         
         
 ## code of the count data count data of detected anomalies 
-def parse_json(json_data, max_distance, gpx_data, road_name, first_gap  , interval=500):
+# def parse_json(json_data, max_distance, gpx_data, road_name, first_gap  , interval=500):
+#     result = {}
+#     distance_ranges = []
+#     start = 0
+
+#     # Generate distance ranges
+#    # max_distance = 47000
+
+#     while start < max_distance:
+#         print("yes")
+#         end = first_gap if start == 0 else min(start + interval, max_distance)
+#         distance_ranges.append((start, end))
+#         start = end
+#         print("start end" , start , end )
+#     print("no")
+#     print(distance_ranges, "printing ... distance ranges ", max_distance, "max distances")
+
+#     # Process each distance range
+#     for i, distance_range in enumerate(distance_ranges):
+        
+
+#         if "SR" in road_name or "SL" in road_name:
+#          counts = {
+#         "Left": defaultdict(int), 
+#         "Right": defaultdict(int),
+#         }
+#         else:
+#          counts = {
+#         "Avenue": defaultdict(int),
+#         "Median": defaultdict(int),
+#         "Center": defaultdict(int),
+#     }
+
+
+           
+#         # Default values for the range
+#         range_key = distance_range[0]
+#         result[range_key] = counts 
+        
+#         for item in json_data['assets'] + json_data['anomalies']:
+#         # Extract distance
+#             try:
+#                 distance = float(item['Distance'])
+#             except (ValueError, KeyError):
+#                 continue  # 
+
+#             # Check if distance falls in the current range
+#             if distance_range[0] <= distance < distance_range[1]:
+#                 # Determine the side
+#                 side = item.get('Side', 'Center').title()
+#                 counts = process_item(counts, item, side)
+
+#                 # Add counts and GPS data to the result
+#             result[range_key] = counts
+#             add_gps_data(result, range_key, gpx_data, distance_range[0], distance_range[1])
+            
+
+#     return result
+
+## parse json using parallel processing
+
+def _process_range(args):
+    distance_range, items, road_name, gpx_data = args
+    range_key = distance_range[0]
+
+    if "SR" in road_name or "SL" in road_name:
+        counts = {"Left": defaultdict(int), "Right": defaultdict(int)}
+    else:
+        counts = {"Avenue": defaultdict(int), "Median": defaultdict(int), "Center": defaultdict(int)}
+
+    for item in items:
+        try:
+            distance = float(item['Distance'])
+        except (ValueError, KeyError):
+            continue
+        if distance_range[0] <= distance < distance_range[1]:
+            side = item.get('Side', 'Center').title()
+            counts = process_item(counts, item, side)
+
+    # Prepare result with GPS data
+    result_chunk = {range_key: counts}
+    add_gps_data(result_chunk, range_key, gpx_data, distance_range[0], distance_range[1])
+
+    return result_chunk
+
+
+def parse_json(json_data, max_distance, gpx_data, road_name, first_gap, interval=500):
     result = {}
     distance_ranges = []
     start = 0
 
-    # Generate distance ranges
-   # max_distance = 47000
-
     while start < max_distance:
-        print("yes")
         end = first_gap if start == 0 else min(start + interval, max_distance)
         distance_ranges.append((start, end))
         start = end
-        print("start end" , start , end )
-    print("no")
-    print(distance_ranges, "printing ... distance ranges ", max_distance, "max distances")
 
-    # Process each distance range
-    for i, distance_range in enumerate(distance_ranges):
-        
+    items = json_data['assets'] + json_data['anomalies']
 
-        if "SR" in road_name or "SL" in road_name:
-         counts = {
-        "Left": defaultdict(int), 
-        "Right": defaultdict(int),
-        }
-        else:
-         counts = {
-        "Avenue": defaultdict(int),
-        "Median": defaultdict(int),
-        "Center": defaultdict(int),
-    }
-
-
-           
-        # Default values for the range
-        range_key = distance_range[0]
-        result[range_key] = counts 
-        
-        for item in json_data['assets'] + json_data['anomalies']:
-        # Extract distance
-            try:
-                distance = float(item['Distance'])
-            except (ValueError, KeyError):
-                continue  # 
-
-            # Check if distance falls in the current range
-            if distance_range[0] <= distance < distance_range[1]:
-                # Determine the side
-                side = item.get('Side', 'Center').title()
-                counts = process_item(counts, item, side)
-
-                # Add counts and GPS data to the result
-            result[range_key] = counts
-            add_gps_data(result, range_key, gpx_data, distance_range[0], distance_range[1])
-            
+    with ProcessPoolExecutor() as executor:
+        args = [(dr, items, road_name, gpx_data) for dr in distance_ranges]
+        for chunk in executor.map(_process_range, args):
+            result.update(chunk)
 
     return result
 
