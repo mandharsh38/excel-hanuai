@@ -6,13 +6,9 @@ api_base_url = "https://ndd.roadathena.com/api/surveys/roads/"
 file_base_url= "https://ndd.roadathena.com"
 
 
-#ids = list(range(5335,5342))  #srr
-#ids = list(range(1203,1209 ))   #sll
-
-#ids =[5900,1,121,1123,1119,11205901]
-# ids =[10510, 10511]
 import id
 ids= id.ids
+# ids=[13740]
 
 output_path = "gpx"
 

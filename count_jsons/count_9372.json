@@ -382,7 +382,8 @@
     "16380": {
         "Avenue": {},
         "Median": {
-            "CAUTIONARY_WARNING_SIGNS": 1
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "NON_STANDARD_INFOMATORY_SIGNS": 1
         },
         "Center": {},
         "lat": 23.37150306,
@@ -393,6 +394,7 @@
     "16880": {
         "Avenue": {},
         "Median": {
+            "NON_STANDARD_INFOMATORY_SIGNS": 2,
             "PROHIBITORY_MANDATORY_SIGNS": 3,
             "HAZARD": 1
         },
@@ -404,6 +406,7 @@
     },
     "17380": {
         "Avenue": {
+            "NON_STANDARD_INFOMATORY_SIGNS": 1,
             "PROHIBITORY_MANDATORY_SIGNS": 1,
             "CAUTIONARY_WARNING_SIGNS": 1
         },
@@ -1068,6 +1071,7 @@
         },
         "Median": {
             "PROHIBITORY_MANDATORY_SIGNS": 3,
+            "NON_STANDARD_INFOMATORY_SIGNS": 1,
             "CAUTIONARY_WARNING_SIGNS": 1,
             "DAMAGED_SIGN": 2
         },
@@ -1098,9 +1102,12 @@
         "to_lng": 87.85355712
     },
     "46380": {
-        "Avenue": {},
+        "Avenue": {
+            "NON_STANDARD_INFOMATORY_SIGNS": 1
+        },
         "Median": {
             "PROHIBITORY_MANDATORY_SIGNS": 3,
+            "NON_STANDARD_INFOMATORY_SIGNS": 1,
             "CAUTIONARY_WARNING_SIGNS": 1,
             "DAMAGED_SIGN": 2
         },
@@ -1156,7 +1163,8 @@
             "DAMAGED_SIGN": 1
         },
         "Median": {
-            "HAZARD": 1
+            "HAZARD": 1,
+            "NON_STANDARD_INFOMATORY_SIGNS": 1
         },
         "Center": {},
         "lat": 23.2148605,
@@ -1341,6 +1349,7 @@
             "PROHIBITORY_MANDATORY_SIGNS": 2
         },
         "Median": {
+            "NON_STANDARD_INFOMATORY_SIGNS": 3,
             "PROHIBITORY_MANDATORY_SIGNS": 3,
             "HAZARD": 1,
             "DAMAGED_SIGN": 1
@@ -1377,6 +1386,7 @@
             "CHEVRON": 6
         },
         "Median": {
+            "NON_STANDARD_INFOMATORY_SIGNS": 1,
             "HAZARD": 1
         },
         "Center": {},
@@ -1432,6 +1442,7 @@
         "Avenue": {},
         "Median": {
             "CHEVRON": 2,
+            "NON_STANDARD_INFOMATORY_SIGNS": 1,
             "INFORMATORY_SIGNS": 1
         },
         "Center": {},
@@ -1486,6 +1497,7 @@
     "61880": {
         "Avenue": {
             "INFORMATORY_SIGNS": 2,
+            "NON_STANDARD_INFOMATORY_SIGNS": 1,
             "PROHIBITORY_MANDATORY_SIGNS": 2,
             "HAZARD": 1
         },
@@ -1577,6 +1589,7 @@
             "PROHIBITORY_MANDATORY_SIGNS": 2
         },
         "Median": {
+            "NON_STANDARD_INFOMATORY_SIGNS": 3,
             "INFORMATORY_SIGNS": 1
         },
         "Center": {},

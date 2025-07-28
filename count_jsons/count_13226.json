@@ -1,0 +1,107 @@
+{
+    "0": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Median": {
+            "INFORMATORY_SIGNS": 3,
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 2,
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 27.99764333,
+        "lng": 76.10236667,
+        "to_lat": 27.99793333,
+        "to_lng": 76.10715667
+    },
+    "500": {
+        "Avenue": {
+            "HAZARD": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 27.99793333,
+        "lng": 76.10715667,
+        "to_lat": 27.99775333,
+        "to_lng": 76.11228833
+    },
+    "1000": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 27.99775333,
+        "lng": 76.11228833,
+        "to_lat": 27.99807,
+        "to_lng": 76.117355
+    },
+    "1500": {
+        "Avenue": {},
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 27.99807,
+        "lng": 76.117355,
+        "to_lat": 27.99920833,
+        "to_lng": 76.12223333
+    },
+    "2000": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 2
+        },
+        "Center": {},
+        "lat": 27.99920833,
+        "lng": 76.12223333,
+        "to_lat": 28.00037833,
+        "to_lng": 76.12713833
+    },
+    "2500": {
+        "Avenue": {
+            "VARIABLE_MESSAGE_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1,
+            "HAZARD": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 28.00037833,
+        "lng": 76.12713833,
+        "to_lat": 28.00156167,
+        "to_lng": 76.13208167
+    },
+    "3000": {
+        "Avenue": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 1,
+            "CHEVRON": 2
+        },
+        "Center": {},
+        "lat": 28.00156167,
+        "lng": 76.13208167,
+        "to_lat": 28.002055,
+        "to_lng": 76.13714833
+    },
+    "3500": {
+        "Avenue": {},
+        "Median": {
+            "CHEVRON": 17,
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Center": {},
+        "lat": 28.002055,
+        "lng": 76.13714833,
+        "to_lat": 28.00229,
+        "to_lng": 76.13613667
+    }
+}

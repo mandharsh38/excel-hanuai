@@ -2,7 +2,7 @@ import requests
 from collections import defaultdict
 
 # survey id
-survey_id = 43
+survey_id = 368
 
 api_url = f"https://ndd.roadathena.com/api/surveys/{survey_id}"
 headers = {"Security-Password": "admin@123"}

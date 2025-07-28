@@ -1,0 +1,70 @@
+{
+    "0": {
+        "Left": {
+            "HAZARD": 2,
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "DAMAGED_SIGN": 1
+        },
+        "Right": {},
+        "lat": 8.39012785,
+        "lng": 76.99843547,
+        "to_lat": 8.38812757,
+        "to_lng": 77.0013227
+    },
+    "403": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 8.38812757,
+        "lng": 77.0013227,
+        "to_lat": 8.38568428,
+        "to_lng": 77.00508668
+    },
+    "903": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 8.38568428,
+        "lng": 77.00508668,
+        "to_lat": 8.38315622,
+        "to_lng": 77.00884158
+    },
+    "1403": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 2,
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "DAMAGED_SIGN": 1
+        },
+        "Right": {},
+        "lat": 8.38315622,
+        "lng": 77.00884158,
+        "to_lat": 8.38055288,
+        "to_lng": 77.01261198
+    },
+    "1903": {
+        "Left": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 8.38055288,
+        "lng": 77.01261198,
+        "to_lat": 8.37808802,
+        "to_lng": 77.01628517
+    },
+    "2403": {
+        "Left": {
+            "INFORMATORY_SIGNS": 3,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Right": {
+            "HAZARD": 1
+        },
+        "lat": 8.37808802,
+        "lng": 77.01628517,
+        "to_lat": 8.37620798,
+        "to_lng": 77.01895957
+    }
+}

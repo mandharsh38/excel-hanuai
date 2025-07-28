@@ -11,6 +11,7 @@ headers = {"Security-Password": "admin@123"}
 
 import id 
 ids= id.ids
+# ids=[3803]
 
 output_path = "jsons"
 

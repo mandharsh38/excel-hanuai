@@ -1,0 +1,105 @@
+{
+    "0": {
+        "Left": {
+            "CAUTIONARY_WARNING_SIGNS": 2,
+            "INFORMATORY_SIGNS": 2,
+            "HAZARD": 2
+        },
+        "Right": {
+            "HAZARD": 2
+        },
+        "lat": 28.10023,
+        "lng": 76.10694833,
+        "to_lat": 28.099795,
+        "to_lng": 76.110045
+    },
+    "318": {
+        "Left": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "HAZARD": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "lat": 28.099795,
+        "lng": 76.110045,
+        "to_lat": 28.09900167,
+        "to_lng": 76.11503667
+    },
+    "818": {
+        "Left": {
+            "HAZARD": 1,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 28.09900167,
+        "lng": 76.11503667,
+        "to_lat": 28.09786167,
+        "to_lng": 76.11995167
+    },
+    "1318": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Right": {},
+        "lat": 28.09786167,
+        "lng": 76.11995167,
+        "to_lat": 28.09672167,
+        "to_lng": 76.12485
+    },
+    "1818": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "INFORMATORY_SIGNS": 2,
+            "CAUTIONARY_WARNING_SIGNS": 3,
+            "HAZARD": 1
+        },
+        "Right": {},
+        "lat": 28.09672167,
+        "lng": 76.12485,
+        "to_lat": 28.09569333,
+        "to_lng": 76.12983333
+    },
+    "2318": {
+        "Left": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "INFORMATORY_SIGNS": 1
+        },
+        "Right": {
+            "HAZARD": 1
+        },
+        "lat": 28.09569333,
+        "lng": 76.12983333,
+        "to_lat": 28.09421167,
+        "to_lng": 76.13470667
+    },
+    "2818": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1
+        },
+        "Right": {
+            "INFORMATORY_SIGNS": 1
+        },
+        "lat": 28.09421167,
+        "lng": 76.13470667,
+        "to_lat": 28.09203167,
+        "to_lng": 76.13906333
+    },
+    "3318": {
+        "Left": {
+            "PROHIBITORY_MANDATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Right": {
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "lat": 28.09203167,
+        "lng": 76.13906333,
+        "to_lat": 28.09085167,
+        "to_lng": 76.14085333
+    }
+}

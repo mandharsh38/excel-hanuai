@@ -1,0 +1,74 @@
+{
+    "0": {
+        "Avenue": {
+            "PROHIBITORY_MANDATORY_SIGNS": 2,
+            "INFORMATORY_SIGNS": 1,
+            "HAZARD": 1
+        },
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 27.9986,
+        "lng": 76.120865,
+        "to_lat": 27.99718333,
+        "to_lng": 76.12285
+    },
+    "260": {
+        "Avenue": {
+            "VARIABLE_MESSAGE_SIGNS": 1,
+            "DAMAGED_SIGN": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 27.99718333,
+        "lng": 76.12285,
+        "to_lat": 27.99446667,
+        "to_lng": 76.12690167
+    },
+    "760": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 2,
+            "CAUTIONARY_WARNING_SIGNS": 3,
+            "HAZARD": 1
+        },
+        "Median": {},
+        "Center": {},
+        "lat": 27.99446667,
+        "lng": 76.12690167,
+        "to_lat": 27.99176833,
+        "to_lng": 76.13099333
+    },
+    "1260": {
+        "Avenue": {
+            "INFORMATORY_SIGNS": 1,
+            "CAUTIONARY_WARNING_SIGNS": 1
+        },
+        "Median": {
+            "HAZARD": 1
+        },
+        "Center": {},
+        "lat": 27.99176833,
+        "lng": 76.13099333,
+        "to_lat": 27.98904833,
+        "to_lng": 76.135025
+    },
+    "1760": {
+        "Avenue": {
+            "HAZARD": 2,
+            "INFORMATORY_SIGNS": 2,
+            "CHEVRON": 6,
+            "PROHIBITORY_MANDATORY_SIGNS": 2,
+            "CAUTIONARY_WARNING_SIGNS": 4
+        },
+        "Median": {
+            "CAUTIONARY_WARNING_SIGNS": 1,
+            "CHEVRON": 3
+        },
+        "Center": {},
+        "lat": 27.98904833,
+        "lng": 76.135025,
+        "to_lat": 27.98624333,
+        "to_lng": 76.13843833
+    }
+}

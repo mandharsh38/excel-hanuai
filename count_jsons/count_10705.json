@@ -17,11 +17,11 @@
     },
     "550": {
         "Left": {
-            "HAZARD": 1
+            "HAZARD": 2,
+            "CHEVRON": 1,
+            "INFORMATORY_SIGNS": 1
         },
-        "Right": {
-            "HAZARD": 1
-        },
+        "Right": {},
         "lat": 12.82711895,
         "lng": 80.04232263,
         "to_lat": 12.8235811,
@@ -31,9 +31,7 @@
         "Left": {
             "HAZARD": 1
         },
-        "Right": {
-            "HAZARD": 1
-        },
+        "Right": {},
         "lat": 12.8235811,
         "lng": 80.03953197,
         "to_lat": 12.81981897,
