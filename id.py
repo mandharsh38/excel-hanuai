@@ -10,4 +10,4 @@ mcw_id=True
 clear_folders=True
 # clear_folders=False
 
-import automate
+# import automate
