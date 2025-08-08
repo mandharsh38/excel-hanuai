@@ -8,6 +8,12 @@ import requests
 from openpyxl.drawing.image import Image
 from io import BytesIO
 
+import sys
+
+def fatal_error(msg):
+    print(f"{msg}")
+    sys.exit(1)
+
 
 HANUAI_LOGO_PATH = "images/HanuAI.png"
 ROADATHENA_LOGO_PATH = "images/RA-logo-1.png"
@@ -26,7 +32,7 @@ def process_json_data(output_json_path, output_folder,roadId):
             road_data = response.json()
             return road_data
         else:
-            print(f"Failed to fetch data from API. Status code: {response.status_code}")
+            fatal_error(f"Failed to fetch data from API. Status code: {response.status_code}")
         
     
     def apply_common_formatting(sheet, survey_data):

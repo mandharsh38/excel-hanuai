@@ -9,7 +9,15 @@ from openpyxl import Workbook, load_workbook
 from collections import defaultdict
 import math 
 
+import sys
+
+def fatal_error(msg):
+    print(f"{msg}")
+    sys.exit(1)
+
+
 #multithread support
+from collections import defaultdict
 from concurrent.futures import ProcessPoolExecutor
 
 def get_max_distance(gpx_data):
@@ -545,8 +553,6 @@ def process_json_data2(output_json_path, gpx_json_path , output_folder, roadId):
                         if i == len(json_data) -1 :
                             to_chainage = end_chainage_value
                         
-                        
-                            
                     else:
                         
                         if to_chainage == end_chainage_value:
@@ -613,24 +619,6 @@ def process_json_data2(output_json_path, gpx_json_path , output_folder, roadId):
                     section_data.get("VARIABLE_MESSAGE_SIGNS", 0)
                 )
 
-            # if "SR" in road_name:
-
-            # ws[f'K{current_row}'] = data["Left"].get("CHEVRON", 0)
-            # ws[f'L{current_row}'] = data["Right"].get("CHEVRON", 0)
-
-            # ws[f'M{current_row}'] = data["Left"].get("CAUTIONARY_WARNING_SIGNS", 0)
-            # ws[f'N{current_row}'] = data["Right"].get("CAUTIONARY_WARNING_SIGNS", 0)
-
-            # ws[f'O{current_row}'] = data["Left"].get("HAZARD", 0)
-            # ws[f'P{current_row}'] = data["Right"].get("HAZARD", 0)
-
-            # ws[f'Q{current_row}'] = data["Left"].get("PROHIBITORY_MANDATORY_SIGNS", 0)
-            # ws[f'R{current_row}'] = data["Right"].get("PROHIBITORY_MANDATORY_SIGNS", 0)
-
-            # ws[f'S{current_row}'] = get_informatory_count(data["Left"])
-            # ws[f'T{current_row}'] = get_informatory_count(data["Right"])
-
-
             if id.mcw_id: 
 
                 ws[f"K{current_row}"] = data["Avenue"].get("CHEVRON", 0)  
@@ -681,8 +669,6 @@ def process_json_data2(output_json_path, gpx_json_path , output_folder, roadId):
         wb.save(output_file_path)
 
     road_data = fetch_road_data(roadId)
-
-
 
     if road_data:
         try:
@@ -736,25 +722,12 @@ def process_json_data2(output_json_path, gpx_json_path , output_folder, roadId):
                 
                 print("outer condition ...")
                 
-                
-                
             print(side , chainage_diff, next_value, value_differnce , "...........")
-                
-            
-            
-            
 
             mc_name = road_data["road"]["assigned_to"]["username"]
             survey_name = road_data["road"]["name"]
             survey_date = road_data["created_at"].split("T")[0]
             sub_division_name = road_data["road"]["assigned_to"]["sub_division"]
-            # print(road_data["road"]["LHR_side"] , "checking ")
-            
-            
-            # if  road_data["road"]["LHR_side"]:
-            #     side = "LHS"
-            # else:
-            #     side = "RHS"
 
             print("side is" , side )
             
@@ -787,13 +760,6 @@ def process_json_data2(output_json_path, gpx_json_path , output_folder, roadId):
             detections_data = json.load(f)  
             
         detections_data['assets'] = sort_assets_by_distance(detections_data)
-            
-            
-            
-            
-        
-
-        
         
         max_distance = get_max_distance(gpx_data)
         # max_distance_ns = get_max_distance(gpx_data)
@@ -817,3 +783,12 @@ def process_json_data2(output_json_path, gpx_json_path , output_folder, roadId):
             
         # print("surve" , survey_data["side"])
         chainageWiseCounting(survey_data, parsed_result , side , value_differnce )
+def main():
+    process_json_data2()
+    
+
+
+if __name__ == "__main__":
+    import multiprocessing
+    multiprocessing.freeze_support()
+    main()
