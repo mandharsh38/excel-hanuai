@@ -783,6 +783,7 @@ def process_json_data2(output_json_path, gpx_json_path , output_folder, roadId):
             
         # print("surve" , survey_data["side"])
         chainageWiseCounting(survey_data, parsed_result , side , value_differnce )
+        
 def main():
     process_json_data2()
     

@@ -74,9 +74,9 @@ def fetch_road_names(api_url, range_start, range_end):
 def main():
     api_url = "https://ndd.roadathena.com/api/surveys/roads"
 
-    range_start = 12093
-    range_end = 12182
-    folder_path = "op2/368"
+    range_start = 15047
+    range_end = 15048
+    folder_path = "op"
 
     api_base_url = "https://ndd.roadathena.com/api/surveys/reports"
 
